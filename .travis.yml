@@ -22,7 +22,7 @@ before_script:
 
 script:
   - ./scripts/check_format.sh
-  - ./configure --enable-werror
+  - ./configure
   - make
   - ./test/unit/unittest.sh
 
